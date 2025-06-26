@@ -4,14 +4,14 @@
   xsi:schemaLocation="http://axelor.com/xml/ns/object-views
   https://axelor.com/xml/ns/object-views/object-views_7.4.xsd">
 
-  <grid name="demo-grid" title="Contact" model="com.axelor.apps.demo.db.Contact">
+  <grid name="contact-grid" title="Contact" model="com.axelor.apps.demo.db.Contact">
     <field name="fullName"/>
     <field name="email"/>
     <field name="phone"/>
     <field name="dateOfBirth"/>
   </grid>
 
-  <form name="demo-form" title="Contact" model="com.axelor.apps.demo.db.Contact">
+  <form name="contact-form" title="Contact" model="com.axelor.apps.demo.db.Contact">
     <panel name="overviewPanel" title="Overview">
       <field name="fullName" readonly="false">
         <editor>
