@@ -5,7 +5,7 @@
   https://axelor.com/xml/ns/object-views/object-views_7.4.xsd">
 
   <menuitem name="menu-demo" title="Address Book" order="1000"
-    if="__config__.app.isApp('demo')" icon="app-demo"/>
+    if="__config__.app.isApp('demo')" icon="droplet-fill" icon-background="#15e5e1"/>
 
   <menuitem name="menu-title" parent="menu-demo" title="Title" action="title"/>
   <menuitem name="menu-contact" parent="menu-demo" title="Contact" action="contact"/>

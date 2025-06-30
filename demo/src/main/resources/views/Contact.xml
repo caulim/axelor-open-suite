@@ -21,7 +21,7 @@
         </editor>
       </field>
       <field name="dateOfBirth"/>
-      <field name="email">
+      <field name="email" widget="email">
         <viewer><![CDATA[
           <>
             <a href={`mailto:${email}`}>{email}</a>
