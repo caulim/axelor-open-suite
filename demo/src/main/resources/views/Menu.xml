@@ -9,6 +9,7 @@
 
   <menuitem name="menu-title" parent="menu-demo" title="Title" action="title"/>
   <menuitem name="menu-contact" parent="menu-demo" title="Contact" action="contact"/>
+  <menuitem name="menu-vehicle" parent="menu-demo" title="Vehicle" action="vehicle"/>
   
   <action-view name="title" title="Title" model="com.axelor.apps.demo.db.Title">
     <view type="grid" name="title-grid"/>
@@ -20,4 +21,9 @@
     <view type="form" name="contact-form"/>
   </action-view>
 
+  <action-view name="vehicle" title="Vehicle" model="com.axelor.apps.fleet.db.Vehicle">
+    <view type="grid" name="vehicle-grid"/>
+    <view type="form" name="vehicle-form"/>
+  </action-view>
+  
 </object-views>
