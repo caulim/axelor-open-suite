@@ -6,13 +6,12 @@
   <form id="demo-partner-form" model="com.axelor.apps.base.db.Partner" title="Partner"
     name="partner-form" extension="true">
 
-    <extend target="//panel[@name='partnerDetailsPanel']">
-      <insert position="after">
-        <field name="demoTest">
-        </field>
+    <extend target="//panel[@name='otherPartnerDetailsPanel']">
+      <insert position="inside">
+        <field name="demoTest" showTitle="true"/>
       </insert>
     </extend>
-  </form>
 
+  </form>
 
 </object-views>

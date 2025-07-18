@@ -6,8 +6,8 @@
   <module name="base" package="com.axelor.apps.base.db"/>
 
   <entity name="Partner">
-    <string name="demoTest" title="Label to be test demo module"
-      multiline="true" large="true"/>
+    <string name="demoTest" title="Label to be test demo module" multiline="true"
+      large="true"/>
   </entity>
 
 </domain-models>
